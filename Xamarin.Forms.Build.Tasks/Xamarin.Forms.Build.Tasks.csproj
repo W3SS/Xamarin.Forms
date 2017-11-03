@@ -102,6 +102,9 @@
     <Compile Include="GetTasksAbi.cs" />
     <Compile Include="CompiledConverters\UriTypeConverter.cs" />
     <Compile Include="CompiledConverters\RDSourceTypeConverter.cs" />
+    <Compile Include="CssGTask.cs" />
+    <Compile Include="CssGenerator.cs" />
+    <Compile Include="CompiledConverters\StyleSheetConverter.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="AfterBuild">
